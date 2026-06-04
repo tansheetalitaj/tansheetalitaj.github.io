@@ -6,9 +6,23 @@
 
   <title>Tansheet Ali | Software Development Engineer</title>
 
-  <meta 
-    name="description" 
-    content="Tansheet Ali - Software Development Engineer with 9+ years of experience in full-stack development, backend systems, AWS, PHP, TypeScript, JavaScript, Node.js, Python, and scalable web platforms."
+  <meta
+    name="description"
+    content="Tansheet Ali - Software Development Engineer with 9+ years of experience in full-stack web development, backend systems, AWS, PHP, JavaScript, TypeScript, Node.js, Python, MySQL, AI tools, and scalable web platforms."
+  />
+
+  <meta
+    name="keywords"
+    content="Tansheet Ali, Software Development Engineer, Full Stack Developer, Backend Engineer, PHP Developer, JavaScript Developer, AWS Developer, Node.js, Python, GitHub Portfolio"
+  />
+
+  <meta name="author" content="Tansheet Ali" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
   />
 
   <link rel="stylesheet" href="style.css" />
@@ -21,7 +35,7 @@
     <nav class="navbar">
       <a href="#home" class="logo">Tansheet Ali</a>
 
-      <button class="menu-toggle" id="menuToggle">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
         ☰
       </button>
 
@@ -30,300 +44,525 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#recruiters">Recruiters</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a class="nav-cv" href="assets/Tansheet_Ali_CV.pdf" target="_blank">Download CV</a></li>
+        <li>
+          <a class="nav-cv" href="assets/Tansheet_Ali_CV.pdf" target="_blank">
+            Download CV
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <!-- Hero -->
-  <section class="hero section" id="home">
-    <div class="hero-content">
-      <p class="eyebrow">Software Development Engineer</p>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Software Development Engineer</p>
 
-      <h1>
-        I build scalable web platforms, backend systems, and automation tools.
-      </h1>
+        <h1>
+          Building reliable <span>web platforms</span>, backend systems, and automation tools.
+        </h1>
 
-      <p class="hero-text">
-        I am a full-stack and backend-focused Software Development Engineer with 9+ years of experience
-        designing, developing, testing, deploying, and supporting production-grade business applications.
+        <p class="hero-text">
+          I am a Software Development Engineer with 9+ years of experience building
+          full-stack web platforms, backend APIs, automation workflows, cloud-hosted systems,
+          and AI-assisted tools using PHP, JavaScript, TypeScript, Node.js, Python, MySQL, and AWS.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn">View Portfolio</a>
+          <a href="assets/Tansheet_Ali_CV.pdf" target="_blank" class="btn secondary-btn">Download CV</a>
+          <a href="#experience" class="btn secondary-btn">View Experience</a>
+        </div>
+
+        <div class="hero-links">
+          <a href="https://github.com/tansheetalitaj" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/tansheetalitaj" target="_blank">LinkedIn</a>
+          <a href="mailto:tansheetalitaj@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <div class="profile-photo-wrap">
+            <img src="assets/profile.png" alt="Tansheet Ali profile photo" class="profile-photo">
+        </div>
+
+        <h2>Tansheet Ali</h2>
+        <p>Full-Stack Web & Backend Systems</p>
+
+        <div class="quick-stats">
+          <div>
+            <strong>9+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div>
+            <strong>AWS</strong>
+            <span>Cloud Systems</span>
+          </div>
+          <div>
+            <strong>API</strong>
+            <span>Backend Architecture</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Engineer focused on practical, scalable, real-world systems.</h2>
+        <p class="section-subtitle">
+          I build software that is useful, maintainable, and aligned with real business needs.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <p>
+            I am a Software Development Engineer with professional experience across full-stack web development,
+            backend APIs, cloud-hosted platforms, reporting systems, automation workflows, and production support.
+          </p>
+
+          <p>
+            My work focuses on building reliable, maintainable, and scalable systems using PHP, TypeScript,
+            JavaScript, Node.js, Python, MySQL, and AWS.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            I enjoy solving business problems through clean architecture, API integrations, database optimisation,
+            automation, testing, and practical engineering decisions.
+          </p>
+
+          <p>
+            I have worked across the full software development lifecycle, including architecture, development,
+            testing, deployment, optimisation, documentation, and operational support.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section alt-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Technical Skills</p>
+        <h2>Core technologies I work with</h2>
+        <p class="section-subtitle">
+          A focused combination of frontend, backend, cloud, database, testing, and AI tooling experience.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card frontend-skill">
+            <div class="skill-icon">⚛️</div>
+            <h3>Frontend Development</h3>
+            <p>TypeScript, JavaScript, React, HTML5, CSS3, Sass, Progressive Web Apps</p>
+        </article>
+
+        <article class="skill-card backend-skill">
+            <div class="skill-icon">🧩</div>
+            <h3>Backend & API Engineering</h3>
+            <p>PHP, Laravel, CodeIgniter, Yii2, Node.js, REST APIs, Microservices</p>
+        </article>
+
+        <article class="skill-card cloud-skill">
+            <div class="skill-icon">☁️</div>
+            <h3>Cloud & DevOps</h3>
+            <p>AWS EC2, RDS, S3, Linux, Git, CI/CD, Production Deployments</p>
+        </article>
+
+        <article class="skill-card database-skill">
+            <div class="skill-icon">🗄️</div>
+            <h3>Database Engineering</h3>
+            <p>MySQL, Schema Design, Query Optimisation, Relational Database Systems</p>
+        </article>
+
+        <article class="skill-card testing-skill">
+            <div class="skill-icon">✅</div>
+            <h3>Testing & Quality</h3>
+            <p>Playwright, Jest, PHPUnit, Regression Testing, Code Reviews</p>
+        </article>
+
+        <article class="skill-card ai-skill">
+            <div class="skill-icon">🤖</div>
+            <h3>AI / Computer Vision</h3>
+            <p>Python, OpenCV, TensorFlow, TFLite, DeepFace, AI-Assisted Development</p>
+        </article>
+        </div>
+    </section>
+
+    <!-- Current Focus -->
+    <section class="section" id="focus">
+      <div class="section-heading">
+        <p class="eyebrow">Current Focus</p>
+        <h2>Building production-minded software with clean architecture.</h2>
+      </div>
+
+      <div class="focus-grid">
+        <article class="focus-card">
+          <span>01</span>
+          <h3>Backend Engineering</h3>
+          <p>Designing reliable APIs, authentication flows, database-driven systems, and scalable backend services.</p>
+        </article>
+
+        <article class="focus-card">
+          <span>02</span>
+          <h3>Full-Stack Platforms</h3>
+          <p>Building practical web platforms using PHP, JavaScript, TypeScript, React, Node.js, and MySQL.</p>
+        </article>
+
+        <article class="focus-card">
+          <span>03</span>
+          <h3>Cloud & Deployment</h3>
+          <p>Working with AWS EC2, RDS, S3, Linux servers, production deployments, and operational support.</p>
+        </article>
+
+        <article class="focus-card">
+          <span>04</span>
+          <h3>AI / Creative Tools</h3>
+          <p>Exploring Python, OpenCV, TensorFlow, AI-assisted workflows, prompt systems, and creator tools.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">Professional Experience</p>
+        <h2>Full-stack and backend engineering experience across production systems.</h2>
+        <p class="section-subtitle">
+          9+ years of experience designing, developing, integrating, testing, deploying,
+          and supporting business-critical web platforms and backend systems.
+        </p>
+      </div>
+
+      <div class="experience-list">
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Senior Software Development Engineer</h3>
+              <p class="company">Test Incorporated Ltd, UK</p>
+            </div>
+            <span class="timeline-date">Oct 2023 - Apr 2026</span>
+          </div>
+
+          <p>
+            Owned end-to-end delivery of web platform features, backend integrations,
+            automation workflows, reporting tools, testing, deployment, and operational support.
+          </p>
+
+          <ul class="experience-points">
+            <li>Developed full-stack web platform features using TypeScript, JavaScript, PHP, Python, Node.js, HTML, Sass, and MySQL.</li>
+            <li>Built and maintained backend APIs, automation scripts, reporting workflows, and cloud-hosted services on AWS EC2, RDS, and S3.</li>
+            <li>Worked across the complete software development lifecycle, including architecture, implementation, testing, deployment, refactoring, and production support.</li>
+            <li>Improved reliability, maintainability, and scalability of existing systems through refactoring and optimisation.</li>
+            <li>Collaborated with product owners, QA, DevOps, frontend engineers, and stakeholders in Agile delivery environments.</li>
+          </ul>
+
+          <div class="tech-pills">
+            <span>PHP</span>
+            <span>TypeScript</span>
+            <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>Python</span>
+            <span>AWS</span>
+            <span>MySQL</span>
+            <span>Playwright</span>
+            <span>Jest</span>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Senior Software Development Engineer</h3>
+              <p class="company">VisionPlus Solutions Ltd</p>
+            </div>
+            <span class="timeline-date">Aug 2020 - Dec 2021</span>
+          </div>
+
+          <p>
+            Designed and delivered full-stack applications, scalable backend services,
+            RESTful APIs, and high-traffic web platform features.
+          </p>
+
+          <ul class="experience-points">
+            <li>Built full-stack web applications with JavaScript, HTML, CSS, PHP, Node.js, Java, and MySQL.</li>
+            <li>Designed RESTful APIs and backend services for customer-facing platforms.</li>
+            <li>Worked with product and UX teams to prototype and deliver web features.</li>
+            <li>Participated in architecture discussions, technical documentation, and code reviews.</li>
+          </ul>
+
+          <div class="tech-pills">
+            <span>PHP</span>
+            <span>Laravel</span>
+            <span>Node.js</span>
+            <span>JavaScript</span>
+            <span>Java</span>
+            <span>AWS</span>
+            <span>MySQL</span>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Software Development Engineer</h3>
+              <p class="company">SixLogics</p>
+            </div>
+            <span class="timeline-date">Jan 2018 - Aug 2020</span>
+          </div>
+
+          <p>
+            Delivered full-stack web applications, PHP backend systems, API integrations,
+            frontend interfaces, and database-driven business applications.
+          </p>
+
+          <ul class="experience-points">
+            <li>Developed client-facing web applications using PHP, JavaScript, HTML, CSS, and MySQL.</li>
+            <li>Integrated third-party APIs and supported live production systems.</li>
+            <li>Applied object-oriented programming, MVC patterns, Git workflows, and reusable backend structures.</li>
+          </ul>
+
+          <div class="tech-pills">
+            <span>PHP</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>MySQL</span>
+            <span>Git</span>
+            <span>APIs</span>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Junior Software Development Engineer</h3>
+              <p class="company">AAA Software Solutions</p>
+            </div>
+            <span class="timeline-date">Feb 2015 - Jan 2018</span>
+          </div>
+
+          <p>
+            Built strong foundations in backend programming, frontend development,
+            authentication workflows, relational databases, and live web application support.
+          </p>
+
+          <ul class="experience-points">
+            <li>Built web applications using PHP, JavaScript, HTML, CSS, and relational databases.</li>
+            <li>Worked on production systems under tight delivery timelines.</li>
+            <li>Developed practical problem-solving skills across real client requirements.</li>
+          </ul>
+
+          <div class="tech-pills">
+            <span>PHP</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>MySQL</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section alt-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Selected repositories, engineering demos, and creative technology projects.</h2>
+        <p class="section-subtitle">
+          A focused selection of public repositories showing backend architecture, AI tools,
+          PHP systems, JavaScript interfaces, and creative engineering.
+        </p>
+      </div>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="ai">AI / Computer Vision</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="creative">Creative Tools</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card" data-category="ai creative backend">
+          <div class="project-tag">PHP · AI Tool · Image Analysis</div>
+          <h3>AI Image Detector</h3>
+          <p>
+            AI-powered image analysis tool with detection scoring, heatmaps, and humanization insights.
+            Designed as a practical AI-assisted review workflow with a clean upload interface.
+          </p>
+          <ul class="project-highlights">
+            <li>Image upload and analysis workflow</li>
+            <li>Detection-style scoring concept</li>
+            <li>Optional Hugging Face API token support</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/tansheetalitaj/ai-image-detector" target="_blank">View Repository</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="creative frontend backend">
+          <div class="project-tag">PHP · UI/UX · Prompt Engineering</div>
+          <h3>FAB Comics Prompt Style Bible</h3>
+          <p>
+            A visual prompt-building system for generating consistent FAB Comics multiverse
+            character artwork and style guides.
+          </p>
+          <ul class="project-highlights">
+            <li>Structured prompt-building interface</li>
+            <li>Comic-book style and character controls</li>
+            <li>Creative workflow tool for FAB Comics</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/tansheetalitaj/fab-comics-prompt-style-bible" target="_blank">View Repository</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="ai">
+          <div class="project-tag">Python · Deep Learning · Computer Vision</div>
+          <h3>Face Recognition System</h3>
+          <p>
+            Real-time computer vision system for face recognition, gaze direction estimation,
+            emotion detection, age and gender prediction using deep learning.
+          </p>
+          <ul class="project-highlights">
+            <li>Face recognition pipeline</li>
+            <li>Emotion, age, and gender prediction</li>
+            <li>Computer vision experimentation</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/tansheetalitaj/face-recognition-system" target="_blank">View Repository</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="backend">
+          <div class="project-tag">PHP · Backend · MVC Architecture</div>
+          <h3>SuperNova Framework</h3>
+          <p>
+            Lightweight PHP application framework created to explore backend framework architecture,
+            request lifecycle, routing, modular structure, and system design.
+          </p>
+          <ul class="project-highlights">
+            <li>Custom routing and request lifecycle</li>
+            <li>MVC-style architecture</li>
+            <li>Modular backend framework design</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/tansheetalitaj/supernova-framework" target="_blank">View Repository</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="backend">
+          <div class="project-tag">PHP · Authentication · Backend</div>
+          <h3>Eshop Backend</h3>
+          <p>
+            Custom PHP backend application demonstrating request routing, authentication,
+            and common backend system concerns using a front controller pattern.
+          </p>
+          <ul class="project-highlights">
+            <li>Authentication workflow</li>
+            <li>Backend routing structure</li>
+            <li>Security-focused PHP patterns</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/tansheetalitaj/eshop" target="_blank">View Repository</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="frontend">
+          <div class="project-tag">JavaScript · BIM · 3D Viewer</div>
+          <h3>Xeokit BIM Viewer</h3>
+          <p>
+            Browser-based BIM viewer built on the xeokit SDK, showing JavaScript-based technical
+            visualization and interactive web tooling.
+          </p>
+          <ul class="project-highlights">
+            <li>Browser-based 3D viewer</li>
+            <li>JavaScript technical visualization</li>
+            <li>Built using xeokit SDK</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/tansheetalitaj/xeokit-bim-viewer" target="_blank">View Repository</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="frontend creative">
+          <div class="project-tag">HTML · CSS · UI Structure</div>
+          <h3>Family Tree</h3>
+          <p>
+            Basic family tree interface demonstrating parent-child structure using HTML and CSS,
+            with focus on layout and visual hierarchy.
+          </p>
+          <ul class="project-highlights">
+            <li>HTML/CSS layout structure</li>
+            <li>Parent-child hierarchy</li>
+            <li>Simple visual information design</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/tansheetalitaj/familytree" target="_blank">View Repository</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Recruiter CTA -->
+    <section class="section recruiter-section" id="recruiters">
+      <div class="recruiter-card">
+        <div>
+          <p class="eyebrow">For Recruiters & Hiring Managers</p>
+          <h2>Looking for a full-stack or backend engineer?</h2>
+          <p>
+            I bring 9+ years of experience across web platforms, backend APIs, PHP systems,
+            JavaScript applications, AWS-hosted services, automation workflows, and AI-assisted tools.
+          </p>
+        </div>
+
+        <div class="recruiter-actions">
+          <a href="assets/Tansheet_Ali_CV.pdf" target="_blank" class="btn primary-btn">Download CV</a>
+          <a href="mailto:tansheetalitaj@gmail.com" class="btn secondary-btn">Email Me</a>
+          <button class="btn secondary-btn" id="copyEmailBtn">Copy Email</button>
+          <p id="copyMessage" class="copy-message">Email copied!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Interested in working together?</h2>
+      </div>
+
+      <p class="contact-text">
+        I am open to Software Development Engineer, Full-Stack Developer, Backend Engineer,
+        and Cloud/Web Platform roles where I can build reliable systems, APIs, automation tools,
+        and production-ready applications.
       </p>
 
-      <div class="hero-actions">
-        <a href="#projects" class="btn primary-btn">View Projects</a>
-        <a href="assets/Tansheet_Ali_CV.pdf" target="_blank" class="btn secondary-btn">Download CV</a>
+      <div class="contact-actions">
+        <a href="mailto:tansheetalitaj@gmail.com" class="btn primary-btn">Email Me</a>
+        <a href="https://www.linkedin.com/in/tansheetalitaj" target="_blank" class="btn secondary-btn">LinkedIn</a>
+        <a href="https://github.com/tansheetalitaj" target="_blank" class="btn secondary-btn">GitHub</a>
       </div>
-
-      <div class="hero-links">
-        <a href="https://github.com/tansheetalitaj" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/tansheetalitaj" target="_blank">LinkedIn</a>
-        <a href="mailto:tansheetalitaj@gmail.com">Email</a>
-      </div>
-    </div>
-
-    <div class="hero-card">
-      <div class="profile-placeholder">
-        TA
-      </div>
-
-      <h2>Tansheet Ali</h2>
-      <p>Full-Stack Web & Backend Systems</p>
-
-      <div class="quick-stats">
-        <div>
-          <strong>9+</strong>
-          <span>Years Experience</span>
-        </div>
-        <div>
-          <strong>AWS</strong>
-          <span>Cloud Systems</span>
-        </div>
-        <div>
-          <strong>API</strong>
-          <span>Backend Architecture</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="section" id="about">
-    <div class="section-heading">
-      <p class="eyebrow">About Me</p>
-      <h2>Engineer focused on practical, scalable, real-world systems.</h2>
-    </div>
-
-    <div class="about-grid">
-      <div>
-        <p>
-          I am a Software Development Engineer with professional experience across full-stack web development,
-          backend APIs, cloud-hosted platforms, reporting systems, automation workflows, and production support.
-        </p>
-
-        <p>
-          My work focuses on building reliable, maintainable, and scalable systems using PHP, TypeScript,
-          JavaScript, Node.js, Python, MySQL, and AWS.
-        </p>
-      </div>
-
-      <div>
-        <p>
-          I enjoy solving business problems through clean architecture, API integrations, database optimisation,
-          automation, testing, and practical engineering decisions.
-        </p>
-
-        <p>
-          I have worked across the full software development lifecycle, including architecture, development,
-          testing, deployment, optimisation, documentation, and operational support.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section class="section alt-section" id="skills">
-    <div class="section-heading">
-      <p class="eyebrow">Technical Skills</p>
-      <h2>Core technologies I work with</h2>
-    </div>
-
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h3>Frontend</h3>
-        <p>TypeScript, JavaScript, React, HTML5, CSS3, Sass, Progressive Web Apps</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Backend & APIs</h3>
-        <p>PHP, Laravel, CodeIgniter, Yii2, Node.js, REST APIs, Microservices</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Cloud & DevOps</h3>
-        <p>AWS EC2, RDS, S3, Linux, Git, CI/CD, Production Deployments</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Databases</h3>
-        <p>MySQL, Schema Design, Query Optimisation, Relational Database Systems</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>Testing & Quality</h3>
-        <p>Playwright, Jest, PHPUnit, Regression Testing, Code Reviews</p>
-      </div>
-
-      <div class="skill-card">
-        <h3>AI / Computer Vision</h3>
-        <p>Python, OpenCV, TensorFlow, TFLite, DeepFace, AI-Assisted Development</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="section" id="experience">
-    <div class="section-heading">
-      <p class="eyebrow">Experience</p>
-      <h2>Professional engineering background</h2>
-    </div>
-
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="timeline-date">Oct 2023 - Apr 2026</span>
-        <h3>Senior Software Development Engineer</h3>
-        <p class="company">Test Incorporated Ltd, UK</p>
-        <p>
-          Delivered web platform features, backend API integrations, testing, deployment, operational support,
-          system refactoring, and scalable cloud-hosted services.
-        </p>
-      </div>
-
-      <div class="timeline-item">
-        <span class="timeline-date">Aug 2020 - Dec 2021</span>
-        <h3>Senior Software Development Engineer</h3>
-        <p class="company">VisionPlus Solutions Ltd</p>
-        <p>
-          Built full-stack applications, RESTful APIs, backend services, and scalable web platforms for high-volume systems.
-        </p>
-      </div>
-
-      <div class="timeline-item">
-        <span class="timeline-date">Jan 2018 - Aug 2020</span>
-        <h3>Software Development Engineer</h3>
-        <p class="company">SixLogics</p>
-        <p>
-          Developed full-stack web applications, third-party API integrations, PHP backend logic, frontend interfaces,
-          and MySQL database-driven systems.
-        </p>
-      </div>
-
-      <div class="timeline-item">
-        <span class="timeline-date">Feb 2015 - Jan 2018</span>
-        <h3>Junior Software Development Engineer</h3>
-        <p class="company">AAA Software Solutions</p>
-        <p>
-          Built web applications using PHP, JavaScript, HTML, CSS, authentication systems, and relational databases.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section class="section alt-section" id="projects">
-    <div class="section-heading">
-      <p class="eyebrow">Featured Projects</p>
-      <h2>Selected engineering work and portfolio projects</h2>
-    </div>
-
-    <div class="projects-grid">
-
-      <article class="project-card">
-        <div class="project-tag">PHP · MVC · Architecture</div>
-        <h3>SuperNova Framework</h3>
-        <p>
-          A custom PHP MVC framework built from scratch with front-controller routing,
-          request lifecycle handling, modular architecture, and reusable application structure.
-        </p>
-        <div class="project-links">
-          <a href="#" target="_blank">View Code</a>
-          <a href="#" target="_blank">Case Study</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-tag">Python · OpenCV · AI</div>
-        <h3>Real-Time Facial Behaviour Analysis</h3>
-        <p>
-          A computer vision pipeline for live video streams using Python, OpenCV, TensorFlow,
-          and DeepFace with modular processing and performance-focused design.
-        </p>
-        <div class="project-links">
-          <a href="#" target="_blank">View Code</a>
-          <a href="#" target="_blank">Case Study</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-tag">Node.js · REST API · AWS</div>
-        <h3>Backend REST API Service</h3>
-        <p>
-          A production-style REST API demonstrating authentication, validation, error handling,
-          pagination, database integration, and service boundaries.
-        </p>
-        <div class="project-links">
-          <a href="#" target="_blank">View Code</a>
-          <a href="#" target="_blank">Case Study</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-tag">PHP · MySQL · Automation</div>
-        <h3>Booking Confirmation Platform Demo</h3>
-        <p>
-          A demo workflow platform for customer confirmations, amendments, API-driven booking data,
-          email notifications, and operational tracking.
-        </p>
-        <div class="project-links">
-          <a href="#" target="_blank">View Code</a>
-          <a href="#" target="_blank">Live Demo</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-tag">PHP · PDF · Reporting</div>
-        <h3>Asset Report Generator Demo</h3>
-        <p>
-          A backend reporting system for generating structured PDF reports with asset summaries,
-          detailed schedules, observations, images, and QR-code references.
-        </p>
-        <div class="project-links">
-          <a href="#" target="_blank">View Code</a>
-          <a href="#" target="_blank">Case Study</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-tag">AWS · Linux · Deployment</div>
-        <h3>AWS Deployment Playbook</h3>
-        <p>
-          A practical deployment guide for hosting PHP and Node.js applications on AWS EC2,
-          RDS, S3, Linux, SSL, Git deployment, logging, and backups.
-        </p>
-        <div class="project-links">
-          <a href="#" target="_blank">View Guide</a>
-          <a href="#" target="_blank">Repository</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section class="section contact-section" id="contact">
-    <div class="section-heading">
-      <p class="eyebrow">Contact</p>
-      <h2>Interested in working together?</h2>
-    </div>
-
-    <p class="contact-text">
-      I am open to Software Development Engineer, Full-Stack Developer, Backend Engineer,
-      and cloud/web platform roles.
-    </p>
-
-    <div class="contact-actions">
-      <a href="mailto:tansheetalitaj@gmail.com" class="btn primary-btn">Email Me</a>
-      <a href="https://www.linkedin.com/in/tansheetalitaj" target="_blank" class="btn secondary-btn">LinkedIn</a>
-      <a href="https://github.com/tansheetalitaj" target="_blank" class="btn secondary-btn">GitHub</a>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
     <p>© <span id="year"></span> Tansheet Ali. Built with HTML, CSS and JavaScript.</p>
   </footer>
 
-  <button class="back-to-top" id="backToTop">↑</button>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
 
   <script src="script.js"></script>
 </body>
