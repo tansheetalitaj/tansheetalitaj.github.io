@@ -8,7 +8,7 @@ if (menuToggle && navLinks) {
   menuToggle.addEventListener("click", () => {
     const isOpen = navLinks.classList.toggle("active");
     menuToggle.setAttribute("aria-expanded", String(isOpen));
-    menuToggle.querySelector("b").textContent = isOpen ? "−" : "+";
+    menuToggle.querySelector("b").textContent = isOpen ? "-" : "+";
   });
 
   navLinks.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
